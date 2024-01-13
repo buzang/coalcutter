@@ -1,22 +1,20 @@
-# Java Spring Boot + React  小猪聊天室 Web前端课大作业
+# React 项目开发模板
 
-## JAVA后端地址：https://github.com/buzang/PigChatRoomServer
+## 适用于不分包的项目 
 
- 用WebSocket 实现简单社区聊天 
- 
-### node 18
-
-```
-  1.pnpm install 
-  
-  2.pnpm run dev
-```
-
-![img.png](doc/img.png)
-
-![img_1.png](doc/img_1.png)
-
-![img_2.png](doc/img_2.png)
+>方便快速开发，不用再配置各种环境，直接上手开发
 
 
-
+>  antd
+> 
+>  axios
+> 
+>  react-router
+> 
+>  unocss
+> 
+>  eslint
+>
+>  vite
+> 
+>  typescript
