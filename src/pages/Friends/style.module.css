@@ -1,0 +1,16 @@
+.itemUser {
+
+  background-color: rgba(79, 72, 82, 0.192);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 5px 2px #171717;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+  transform: scale(1);
+}
+
+.itemUser:hover{
+  box-shadow: 0 0 10px 2px #555555;
+
+  transform: scale(1.15);
+}

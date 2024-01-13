@@ -1,0 +1,42 @@
+.messageListItem {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+
+.userInfo {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: end;
+align-content: center;
+}
+
+.nameAndTime {
+display: flex;
+font-weight:300;
+flex-direction: column;
+align-items: start;
+color: #eeee;
+margin-bottom:2px;
+}
+
+.message {
+margin-top: 10px;
+margin-left: 10px;
+color: aliceblue;
+max-width: 500px;
+font-size: 17px;
+background-color: rgba(50, 50, 50, 0.908);
+box-shadow: 0px 0px 10px 10px rgba(63, 63, 63, 0.631);
+border: 1px solid rgb(104, 104, 104);
+/* backdrop-filter: blur(4px); */
+padding: 15px;
+font-size: 17px;
+text-shadow: 1px 1px black;
+border-radius: 15px;
+display: inline-block;
+word-wrap: break-word; /* 确保长单词可以被打断并换行 */
+  white-space: normal; /* 允许文本换行 */
+}

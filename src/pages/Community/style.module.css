@@ -1,0 +1,45 @@
+.main>:nth-child(1) {
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+
+.emojiList .item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(48, 48, 48, 0.911);
+  box-shadow: 0px 0px 10px 5px #212522;
+  border-radius: 15px;
+  font-size: 80px;
+  height: 250px;
+  justify-content: center;
+  flex-direction: column;
+
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.emojiList .item:hover {
+  box-shadow: 0px 0px 10px 5px #a4a4a445;
+  transform: scale(1.15);
+}
+
+.atomTag {
+  transform: rotate(-45deg);
+  float: left;
+  margin: 5px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.emojiList {
+  display: grid;
+  place-items: center;
+  /* 简写属性，同时设置水平和垂直居中 */
+  grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+  /* 自动填充列，并设置最小和最大宽度 */
+  gap: 50px
+    /* 格子之间的间隔 */
+}
