@@ -1,5 +1,5 @@
 {
-  "name": "chatroomweb",
+  "name": "coalcutter",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -10,12 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "antd": "^5.12.8",
     "axios": "^1.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.17.0",
-    "nikel-message-center": "^1.0.1",
     "react-router-dom": "^6.17.0"
   },
   "devDependencies": {

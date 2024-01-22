@@ -1,4 +1,3 @@
-import React from 'react'
 import { NonIndexRouteObject } from 'react-router'
 import HomePage from '@/pages/Home'
 
